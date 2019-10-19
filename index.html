@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="author" content="Julio Uliandro">
+  <title>Tic Tac Toe game</title>
+  <link rel='stylesheet prefetch' href='https://getbootstrap.com/2.3.2/assets/css/bootstrap.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+
+  <div id="header">
+    <h1>Scalable Tic Tac Toe</h1>
+  </div>
+
+  <div id="options">
+    <p>Settings:</p>
+    <form id="options">
+      <label for="input_boardsize">Board Size:</label>
+        <input type="number" id="input_boardsize" min="2" max="25" value="3" />
+      <label for="board color">Board Color:</label>
+        <input type="color" value="#000000" id="input_boardcolor">
+    </form>
+    <button id="options_submit">Play!</button>
+  </div>
+
+  <div id="changeIndicator"></div>
+  <div id="game"></div>
+
+</body>
+
+</html>
